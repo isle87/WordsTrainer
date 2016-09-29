@@ -2,8 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WordsTrainer"
-             StartupUri="MainWindow.xaml">
+             xmlns:Pages="clr-namespace:WordsTrainer"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="Pages/MainPage.xaml">
     <Application.Resources>
-         
+        <sys:Double x:Key="dbFontSize">15</sys:Double>
     </Application.Resources>
 </Application>
